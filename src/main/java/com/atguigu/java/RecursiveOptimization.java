@@ -7,9 +7,9 @@ public class RecursiveOptimization {
     public static void main(String[] args) {
 
         long t1 = System.currentTimeMillis();
-        //System.out.println(fibonacci(45));                   //45 4222  50 44243   100  等不起
+        System.out.println(fibonacci(55));                   //45 4222  50 44243   100  等不起
         //System.out.println(improvedFibonacci(3000));            //45 0  50 1  100  1   500  1
-        System.out.println(cacheFibonacci(3000));            //45 1  50 1  100  1   500  1
+        //System.out.println(cacheFibonacci(3000));            //45 1  50 1  100  1   500  1
         long t2 = System.currentTimeMillis();
         System.out.println(t2-t1);
     }
